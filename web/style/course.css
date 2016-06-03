@@ -1,0 +1,68 @@
+.information {
+	padding: 0 100px;
+	display: inline-block;
+}
+
+.information > span {
+	display: block;
+	text-align: center;
+	font-size: 24px;
+	color: #464547;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+
+.field-inf {
+	position: relative;
+	height: 40px;	
+}
+
+.left-name {
+	position: absolute;
+	left: 20px;
+	color: #464547;
+	font-size: 18px;
+}
+.right-name {
+	position: absolute;
+	left: 250px;
+	color: #464547;
+	font-size: 18px;
+}
+.bid {
+	margin-top: 50px;
+	margin-left: 10px;
+}
+.choose-group {
+	height: 50px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.choose-group span{
+	font-size: 22px;
+	color: #464547;
+	width: 100%;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+.group {
+	opacity: 0;
+}
+
+.name-group {
+	font-size: 20px;
+	color: #464547;
+	cursor: pointer;
+}
+
+.group:checked + .name-group{
+	color: #1a9cb0;
+}
+.back {
+	background-color: #1a9cb0;
+	margin-left: 10px;
+}
+.back:hover {
+	background-color: rgb(21, 124,140);
+}

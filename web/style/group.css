@@ -1,0 +1,114 @@
+.table-group {
+	/*width: 800px;*/
+	margin: 10px  auto;
+	border-collapse: collapse;
+	position: relative;
+}
+tr:nth-child(odd) {
+	background-color: #61c3ff;
+	color: white;
+}
+tr:nth-child(even) {
+	background-color: #E0FFFF;
+	color: #999;
+}
+
+td, th {
+	border: 1px solid white;
+	font-size: 18px;
+	padding: 5px 10px;
+
+}
+
+.header-table {
+	/*position: fixed;*/
+	/*top: 108px;*/
+	height: 40px;
+	color: white;
+	text-transform: uppercase;
+}
+
+.header-table th {
+	font-size: 20px;
+	background-color: rgb(21, 124,140);
+}
+
+
+.feedback {
+	max-width: 500px;
+	min-width: 500px;
+	word-wrap: break-word;
+}
+
+.button-group {
+	width: 300px;
+}
+
+.add-feedback {
+	/*float: right;*/
+	margin: 5px;
+	display: inline-block;
+	height: 30px;
+	font-size: 14px;
+	line-height: 30px;
+	width: 85%;
+}
+.add-feedback span {
+	/*margin: 0;*/
+}
+.right {
+	float: right;
+	display: inline-block;
+}
+
+
+
+.create {
+	position: absolute;
+	top: 20px;
+	left: 455px;
+	width: 500px;
+	margin: auto;
+	display: none;
+	background-color: white;
+	z-index: 10001;
+	position: fixed;
+}
+
+#comment:target + .comment {
+	display: inline-block;
+}
+
+#total:target + .total {
+	display: inline-block;
+}
+
+.comment-decription {
+	height: 100px;
+}
+
+.title-comment {
+	display: block;
+	text-align: center;
+	font-size: 24px;
+	margin-bottom: 20px;
+	color: #39c2d7;
+}
+.create-comment-submit {
+	width: 100%;
+	margin-left: 0;
+}
+
+.total-mark, .total-recall {
+	display: none;
+}
+.total-button {
+	disabled: disabled;
+}
+
+.disabled {
+	pointer-events: none;
+	cursor: default;
+	color: rgb(21, 124,140);
+	background-color: #999;
+}

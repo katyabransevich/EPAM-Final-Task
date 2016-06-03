@@ -1,0 +1,297 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	position: relative;
+}
+a {
+	text-decoration: none;
+}
+.wrapper {
+	min-height: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-color: #f0f2f4;
+    position: relative;
+}
+.main-header {
+	top: 0;
+	left: 0;
+	background-color: #1a9cb0;
+	width: 100%;
+	height: 60px;
+	z-index: 1000;
+}
+.menu-navigation {
+	list-style: none;
+	float: left;
+	padding: 0;
+	margin: 0;
+}
+.menu-navigation > li {
+	float: left;
+	position: relative;
+	display: block;
+	padding-left: 10px;
+	padding-right: 10px; 	
+}
+.menu-navigation > li:hover {
+	background-color: rgb(21, 124,140);
+}
+.href-nav {
+	height: 60px;
+ 	line-height: 60px;
+ 	text-decoration: none;
+ 	font-size: 18px;
+ 	color: white;
+ 	display: block;
+}
+.href-nav span {
+	margin-right: 7px;
+}
+.sign-in {
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 60px;
+
+}
+.signin-button {
+	height: 60px;
+	text-align: center;
+	vertical-align: middle;
+	text-transform: uppercase;
+	background: #a3c644;
+	border: 0;
+	color: white;
+	font-weight: normal;
+	padding: 0 15px;
+	font-size: 18px;
+	cursor: pointer;
+	display: inline-block;
+	line-height: 60px;
+
+
+}
+.signin-button:hover {
+	background-color: #8cad35;
+}
+.signin-button span {
+	margin-right: 10px;
+}
+.location {
+	height: 60px;
+	display: inline-block;
+	border: 0;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+
+}
+form a{
+	color: white;
+}
+.separator {
+	position: absolute;
+	top: 15px;
+	right: 30px;
+	height: 25px;
+	width: 1px;
+	background-color: white;
+	display: inline-block;
+	margin-right: 3px;
+}
+
+.location form {
+	display: inline-block;
+	margin-right: 3px;
+	margin-left: 3px;
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+}
+.location form a:hover {
+	color: rgb(21, 124,140);
+}
+.user {
+	height: 60px;
+ 	line-height: 60px;
+ 	font-size: 18px;
+ 	color: white;
+ 	display: none;
+ 	padding: 0 10px;
+ 	margin-left: -.36em;
+ 	margin-top: -.36em;
+
+}
+.user:hover {
+	background-color: rgb(21, 124,140);
+}
+.banner {
+	position: relative;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    height: 300px;
+}
+.banner img {
+	width: 100%;
+	height: 300px;
+}
+
+.title-banner {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	height: 200px;
+	text-align: center;
+}
+.main-title {
+	font-size: 48px;
+}
+.other-inf {
+	font-size: 28px;
+}
+.title-banner span {
+	color: white;
+	font-weight: bold;
+	display: block;
+	margin-top: 10px; 
+}
+
+.main-content {
+	margin-top: 20px;
+	position: relative;
+	/*height: 600px;*/
+}
+
+.all-courses > span{
+	display: block;
+	text-align: center;
+	font-size: 24px;
+	color: #464547;
+	text-transform: uppercase;
+
+}
+.row {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	margin-top: 20px; 
+}
+.logo-course {
+	padding-top: 20px;
+	height: 100px;
+	width: 100px;
+	margin: auto;
+}
+.course {
+	width: 300px;
+	height: 420px;
+	background-color: white;
+}
+
+.course-name {
+	padding: 10px 20px 0;
+	height: 50px;
+	font-size: 16px;
+	text-transform: uppercase;
+	vertical-align: middle;
+	text-align: center;
+}
+.course  a {
+	color: black;
+	text-decoration: none;
+}
+.course-info {
+	/*height: 50px;*/
+	margin-top: 10px; 
+	/*background-color:  #464547;*/
+	text-align: center;
+	color: #999;
+	font-size: 16px;
+}
+
+.course-info > div {
+	padding: 10px;
+}
+
+.registration {
+	padding: 0 20px 20px;
+
+}
+
+.disabled {
+	pointer-events: none;
+	cursor: default;
+	color: rgb(21, 124,140);
+	background-color: #999;
+}
+
+.registration a {
+	background-color: #1a9cb0;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+	height: 25px;
+	width: 100%;
+	display: inline-block;
+	padding: 15px 0;
+}
+
+.green a {
+	background-color: #a3c644; 
+}
+.fa span {
+	margin-left: 10px;
+}
+
+.more-courses {
+	height: 3px;
+    background-color: #fff;
+    position: relative;
+    margin: 55px 0 20px;
+}
+
+.more-courses a {
+	display: block;
+    border-radius: 20px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -20px;
+    bottom: 0;
+    margin: 0 auto;
+    height: 40px;
+    width: 185px;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #39c2d7;
+    background-color: #fff;
+    text-decoration: none;
+    text-align: center;
+    line-height: 40px;
+}
+
+.stab {
+	height: 100px;
+}
+
+.main-footer {
+	height: 60px;
+	background-color: #464547;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	color: white;
+	font-size: 24px;
+	line-height: 60px;
+	padding: 0 10px;
+	box-sizing: border-box;
+}
+

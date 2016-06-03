@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="FinalTask:war">
+    <output-path>$PROJECT_DIR$/out/artifacts/FinalTask_war</output-path>
+    <root id="archive" name="FinalTask_war.war">
+      <element id="artifact" artifact-name="FinalTask:war exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="libjdbc" />
+          <element id="library" level="project" name="lib" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

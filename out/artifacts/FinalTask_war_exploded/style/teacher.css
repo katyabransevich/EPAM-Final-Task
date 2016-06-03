@@ -1,0 +1,44 @@
+.date {
+	width: 30%;
+	height: 40px;
+	
+}
+.create-course {
+	position: absolute;
+	top: 0;
+	left: 455px;
+	width: 500px;
+	margin: auto;
+	display: none;
+	/*height: 500px;*/
+	background-color: white;
+	z-index: 10001;
+	position: fixed;
+}
+
+#create-course:target + .create-course {
+	display: inline-block;
+}
+
+.date-title {
+	text-align: center;
+	color: #999;
+	font-size: 18px;
+	margin: -5px 0 10px;
+}
+
+.divider {
+	height: 20px;
+}
+
+.decription {
+	font-family: Arial;
+	box-sizing: border-box;
+	padding: 5px 10px;
+	width: 100%;
+	height: 60px;
+	margin-bottom: 10px;
+}
+.create {
+	margin-left: 0px;
+}
