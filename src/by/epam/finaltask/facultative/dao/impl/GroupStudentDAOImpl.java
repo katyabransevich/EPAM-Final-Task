@@ -1,42 +1,50 @@
 package by.epam.finaltask.facultative.dao.impl;
 
-import by.epam.finaltask.facultative.dao.GroupStudent;
+import by.epam.finaltask.facultative.dao.GroupStudentDAO;
 import by.epam.finaltask.facultative.dao.connectionpool.ConnectionPool;
 import by.epam.finaltask.facultative.dao.exception.ConnectionPoolException;
 import by.epam.finaltask.facultative.dao.exception.DAOException;
 import by.epam.finaltask.facultative.entity.*;
 
-import java.sql.Connection;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
+import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
 
-public class GroupStudentDAOImpl implements GroupStudent {
+public class GroupStudentDAOImpl implements GroupStudentDAO {
+    private final static String SQL_GET_STUDENT_INF= "SELECT DISTINCT id_student, mark,comment ,name,surname FROM facultative join authoriz " +
+            "on(facultative.id_student=authoriz.id) Where id_subject= ? ;";
+    private final static String SQL_ID_STUDENT="id_student";
+    private final static String SQL_MARK="mark";
+    private final static String SQL_COMMENT="comment";
+    private final static String SQL_NAME="name";
+    private final static String SQL_SURNAME="surname";
+
+
+
     public List<CourseStatistic> getGroupOfStudentForCurrentSubject ( CourseDescription course) throws DAOException {
         ConnectionPool connectionPool = ConnectionPool.getInstance();
         Connection connection = null;
-        Statement st=null;
         ResultSet rs=null;
         List<CourseStatistic> listStudents = new ArrayList<>();
+        PreparedStatement preparedStatement= null;
+
+
         try {
             connection = connectionPool.takeConnection();
-            String sql =  "SELECT DISTINCT id_student, mark,comment ,name,surname FROM facultative join authoriz " +
-                    "on(facultative.id_student=authoriz.id) Where id_subject="+course.getId()+";";
-            st = connection.createStatement();
-            rs = st.executeQuery(sql);
+            preparedStatement = connection.prepareStatement(SQL_GET_STUDENT_INF);
+            preparedStatement.setInt(1, course.getId());
+            rs = preparedStatement.executeQuery();
 
             while (rs.next()) {
                 CourseStatistic studentFromGroup = new CourseStatistic();
-                studentFromGroup.setMark(rs.getInt(2));
-                studentFromGroup.setComment(rs.getString(3));
+                studentFromGroup.setMark(rs.getInt(SQL_MARK));
+                studentFromGroup.setComment(rs.getString(SQL_COMMENT));
                 studentFromGroup.setSubject(course);
                 User student= new User();
-                student.setId(rs.getInt(1));
-                student.setName(rs.getString(4));
-                student.setSurname(rs.getString(5));
+                student.setId(rs.getInt(SQL_ID_STUDENT));
+                student.setName(rs.getString(SQL_NAME));
+                student.setSurname(rs.getString(SQL_SURNAME));
                 studentFromGroup.setStudent(student);
 
                 listStudents.add(studentFromGroup);
@@ -48,7 +56,7 @@ public class GroupStudentDAOImpl implements GroupStudent {
             throw new DAOException(e);
 
         } finally {
-            connectionPool.closeConnection(connection,st,rs);
+            connectionPool.closeConnection(connection,preparedStatement,rs);
         }
 
     }

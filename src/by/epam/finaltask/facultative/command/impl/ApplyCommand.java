@@ -4,8 +4,8 @@ import by.epam.finaltask.facultative.command.Command;
 import by.epam.finaltask.facultative.command.exception.CommandException;
 import by.epam.finaltask.facultative.controller.PageName;
 import by.epam.finaltask.facultative.entity.User;
-import by.epam.finaltask.facultative.service.ApplyService;
-import by.epam.finaltask.facultative.service.SubjectService;
+import by.epam.finaltask.facultative.service.OperationWithCourseService;
+import by.epam.finaltask.facultative.service.CourseService;
 import by.epam.finaltask.facultative.service.exception.ServiceException;
 
 import javax.servlet.http.HttpServletRequest;
@@ -26,11 +26,9 @@ public class ApplyCommand  implements Command {
            User user =(User)request.getSession().getAttribute(USER);
             int idStudent=user.getId();
             int idSubject=Integer.parseInt(request.getParameter(ID_SUBJECT));
-            System.out.println(idStudent+"------------"+idSubject);
-            if (ApplyService.apply(idStudent,idSubject)) {
-                request.setAttribute(SUBJECT, SubjectService.getOtherSubjectForStudent(user));
-                request.setAttribute(SUBJECT_STUDENT, SubjectService.getSubjectForStudent(user));
-                page = PageName.STUDENT_PAGE;
+            if (OperationWithCourseService.applyCourseForStudent(idStudent,idSubject)) {
+                request.setAttribute(SUBJECT, CourseService.getOtherSubjectForStudent(user));
+                page = PageName.ALL_COURSES;
             } else {
                 page = PageName.ERROR_PAGE;
             }

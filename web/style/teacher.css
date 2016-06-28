@@ -10,7 +10,6 @@
 	width: 500px;
 	margin: auto;
 	display: none;
-	/*height: 500px;*/
 	background-color: white;
 	z-index: 10001;
 	position: fixed;
@@ -31,14 +30,17 @@
 	height: 20px;
 }
 
+
+.create {
+	margin-left: 5px;
+}
 .decription {
 	font-family: Arial;
 	box-sizing: border-box;
-	padding: 5px 10px;
-	width: 100%;
-	height: 60px;
+	padding: 15px 10px;
+	width: 90%;
 	margin-bottom: 10px;
 }
-.create {
-	margin-left: 0px;
-}
+
+
+

@@ -7,9 +7,7 @@ import by.epam.finaltask.facultative.entity.CourseStatistic;
 import java.util.List;
 
 
-/**
- * Created by Admin on 30.05.2016.
- */
-public interface GroupStudent {
+
+public interface GroupStudentDAO {
     public abstract List<CourseStatistic> getGroupOfStudentForCurrentSubject( CourseDescription course) throws DAOException;
 }

@@ -2,10 +2,11 @@
 	position: absolute;
 	top: 0;
 	left: 455px;
-	width: 500px;
+	width: 400px;
 	margin: auto;
+
 	display: none;
-	height: 500px;
+	height: 400px;
 	background-color: white;
 	z-index: 10001;
 	position: fixed;
@@ -38,15 +39,30 @@
 	line-height: 60px;
 	
 }
+.form-regestration{
+	padding: 50px;
+}
 .form {
 	padding: 50px 100px;
 }
 .input-field {
 	height: 50px;
-	width: 100%;
+	width: 90%;
 	margin-bottom: 25px;
-	box-sizing: border-box;	
+	margin-left:20px;
+	box-sizing: border-box;
+	padding-left: 15px;
 }
+.input-field-date {
+	height: 50px;
+	width: 50%;
+	margin-bottom: 25px;
+	box-sizing: border-box;
+}
+.field-date {
+	display: inline-block;
+}
+
 
 .submit {
 	width: 100%; 

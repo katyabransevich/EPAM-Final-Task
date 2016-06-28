@@ -1,8 +1,8 @@
 package by.epam.finaltask.facultative.service;
 
-import by.epam.finaltask.facultative.dao.UpdateContextTableStudent;
+import by.epam.finaltask.facultative.dao.DAOFactory;
+import by.epam.finaltask.facultative.dao.UpdateContextTableStudentDAO;
 import by.epam.finaltask.facultative.dao.exception.DAOException;
-import by.epam.finaltask.facultative.dao.impl.UpdateContextTableStudentDAOImpl;
 import by.epam.finaltask.facultative.service.exception.ServiceException;
 
 public class UpdateContextService {
@@ -10,7 +10,7 @@ public class UpdateContextService {
         if (!Validator.validateComment(comment)){
             throw new ServiceException("Invalid comment");
         }
-        UpdateContextTableStudent update = new UpdateContextTableStudentDAOImpl();
+        UpdateContextTableStudentDAO update = DAOFactory.getUpdateContextTableStudentDAO();
         try {
             update.updateComment(comment,idStudent,idSubject);
 
@@ -23,7 +23,7 @@ public class UpdateContextService {
         if (!Validator.validateMark(mark)){
             throw new ServiceException("Invalid comment");
         }
-        UpdateContextTableStudent update = new UpdateContextTableStudentDAOImpl();
+        UpdateContextTableStudentDAO update = DAOFactory.getUpdateContextTableStudentDAO();
         try {
             update.updateMark(Integer.parseInt(mark),idStudent,idSubject);
 

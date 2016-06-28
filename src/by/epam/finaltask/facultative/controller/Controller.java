@@ -21,30 +21,20 @@ public class Controller extends HttpServlet {
 
         private final CommandHelp commandHelper = new CommandHelp();
 
-        public Controller() {
-            super();
-        }
 
-    @Override
-    public void init(){
-        ConnectionPool connectionPool = ConnectionPool.getInstance();
-        try {
-            connectionPool.initPoolData();
-        } catch (ConnectionPoolException e) {
-            e.printStackTrace();
-        }
-    }
-     public void destroy(){
-         ConnectionPool connectionPool = ConnectionPool.getInstance();
-         connectionPool.dispose();
-     }
 
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        forward(request,  response);
     }
 
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        forward(request,  response);
+
+    }
+
+    protected void forward(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String commandName = null;
         Command command = null;
         String page = null;
@@ -60,11 +50,10 @@ public class Controller extends HttpServlet {
         RequestDispatcher dispatcher = request.getRequestDispatcher(page);
         if (dispatcher != null){
             dispatcher.forward(request, response);
-        }else{
-            // to do
         }
 
     }
+
 
 
 }

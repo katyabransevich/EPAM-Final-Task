@@ -12,9 +12,7 @@ import by.epam.finaltask.facultative.service.exception.ServiceException;
 import javax.servlet.http.HttpServletRequest;
 import java.util.List;
 
-/**
- * Created by Admin on 30.05.2016.
- */
+
 public class GroupStudentCommand implements Command{
 
 

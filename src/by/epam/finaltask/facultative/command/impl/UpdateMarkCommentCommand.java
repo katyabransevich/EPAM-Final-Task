@@ -6,7 +6,6 @@ import by.epam.finaltask.facultative.controller.PageName;
 import by.epam.finaltask.facultative.entity.CourseDescription;
 import by.epam.finaltask.facultative.entity.CourseStatistic;
 import by.epam.finaltask.facultative.entity.User;
-import by.epam.finaltask.facultative.service.ApplyService;
 import by.epam.finaltask.facultative.service.GroupStudentService;
 import by.epam.finaltask.facultative.service.UpdateContextService;
 import by.epam.finaltask.facultative.service.exception.ServiceException;
@@ -36,9 +35,6 @@ public class UpdateMarkCommentCommand implements Command{
             int idSubject=Integer.parseInt(request.getParameter(ID_SUBJECT));
             if(command.equals("mark")){
                 System.out.println("mark");
-                System.out.println(Integer.parseInt(request.getParameter(MARK)));
-                System.out.println(request.getParameter(MARK));
-
                 UpdateContextService.checkMarkField(request.getParameter(MARK),idStudent,idSubject);
             }else{
                 UpdateContextService.checkCommentField(request.getParameter(COMMENT),idStudent,idSubject);

@@ -6,13 +6,11 @@ import by.epam.finaltask.facultative.entity.User;
 
 import java.util.List;
 
-/**
- * Created by Admin on 30.05.2016.
- */
-public interface SubjectsForUser {
+
+public interface SubjectsForUserDAO {
     public List<CourseDescription> getSubjectsForTeacher (User teacher) throws DAOException;
-    public List<CourseDescription> getSubjectsForStudent (User student, String date) throws DAOException;
-    public List<CourseDescription> getOtherSubjectsForStudent (User student,String date) throws DAOException;
+    public List<CourseDescription> getSubjectsForStudent (User student) throws DAOException;
+    public List<CourseDescription> getOtherSubjectsForStudent (User student) throws DAOException;
     public List<CourseDescription> getAllSubject () throws DAOException;
     public CourseDescription getDescriptionSubject(int idSubject)throws DAOException;
 }

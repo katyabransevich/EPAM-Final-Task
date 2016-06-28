@@ -1,197 +1,212 @@
 <%@ page language="java" contentType="text/html; charset=utf-8"
-         pageEncoding="utf-8"%>
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
-<%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
+         pageEncoding="utf-8" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
+<%@ taglib prefix="tft" uri="/WEB-INF/tld/dayTime.tld" %>
 <html>
-  <head>
+<head>
     <title>Course portal</title>
-      <meta charset="utf-8">
-      <style>
+    <meta charset="utf-8">
+    <style>
 
-         <%@include file='style/main.css' %>
-         <%@include file='style/sign-in.css' %>
+        <%@include file='style/main.css' %>
+        <%@include file='style/sign-in.css' %>
 
-      </style>
-    <fmt:setLocale value="${sessionScope.local}" />
-    <fmt:setBundle basename="localization.local" var="loc" />
-    <fmt:message bundle="${loc}" key="local.login" var="login" />
-      <fmt:message bundle="${loc}" key="local.password" var="password" />
-      <fmt:message bundle="${loc}" key="local.signIn" var="signIn" />
-      <fmt:message bundle="${loc}" key="local.registration" var="registration" />
-      <fmt:message bundle="${loc}" key="local.locbutton.name.ru"
-                 var="ru_button" />
+    </style>
+    <fmt:setLocale value="${sessionScope.local}"/>
+    <fmt:setBundle basename="localization.local" var="loc"/>
+    <fmt:message bundle="${loc}" key="local.enter.login" var="login"/>
+    <fmt:message bundle="${loc}" key="local.enter.password" var="password"/>
+    <fmt:message bundle="${loc}" key="local.signIn" var="signIn"/>
+    <fmt:message bundle="${loc}" key="local.welcome" var="welcome"/>
+    <fmt:message bundle="${loc}" key="local.large_choose" var="large_choose"/>
+    <fmt:message bundle="${loc}" key="local.registration" var="registration"/>
+    <fmt:message bundle="${loc}" key="local.locbutton.name.ru"
+                 var="ru_button"/>
     <fmt:message bundle="${loc}" key="local.locbutton.name.en"
-                 var="en_button" />
+                 var="en_button"/>
+    <fmt:message bundle="${loc}" key="local.all_course" var="all_courses"/>
+    <fmt:message bundle="${loc}" key="local.course_portal" var="course_portal"/>
+    <fmt:message bundle="${loc}" key="local.view" var="view"/>
+    <fmt:message bundle="${loc}" key="local.message.login_or_pass_not_correct" var="error_login_or_passwors"/>
+    <fmt:message bundle="${loc}" key="local.message.login_bad" var="error_login"/>
+    <fmt:message bundle="${loc}" key="local.morning" var="morning"/>
+    <fmt:message bundle="${loc}" key="local.evening" var="evening"/>
 
 
-  </head>
-  <body>
+</head>
+<body>
 
 
+<div class="wrapper">
 
-  <div class="wrapper">
+    <header class="main-header">
+        <nav>
 
-      <header class="main-header">
-          <nav>
-              <div class="logo"></div>
-              <ul class="menu-navigation">
-                  <li><a class="href-nav" href="/">ВСЕ КУРСЫ</a></li>
-                  <li><a class="href-nav" href="/">НОВОСТИ</a></li>
-                  <li><a class="href-nav"href="/">ABOUT</a></li>
+            <c:if test="${not empty requestScope.message}">
+                *${error_login}</c:if>
+            <div class="sign-in">
+                <a class="signin-button" href="#registration">${registration}</a>
+                <a class="signin-button" href="#overlay">${signIn}</a>
 
-              </ul>
-              <div class="sign-in">
-                  <a class="signin-button" href="#overlay">Sign in</a>
-                  <div class="user">
-                  </div>
+                <div class="location">
+                    <form action="ControllerLocal" method="post">
+                        <input type="hidden" name="local" value="ru"/>
+                        <button> ${ru_button}</button>
+                    </form>
 
-
-                  <div class="location">
-                      <form action="ControllerLocal" method="post">
-                          <input type="hidden" name="local" value="ru" />
-                          <a href="">${ru_button}</a>
-                      </form>
-
-                      <div class="separator"></div>
-                      <form action="ControllerLocal" method="post">
-                          <input type="hidden" name="local" value="en" />
-                          <a href="">${en_button}</a>
-                      </form>
-                  </div>
-              </div>
-          </nav>
-      </header>
-      <div class="banner">
-          <img src="images/cover_banner.jpg" alt="">
-          <div class="title-banner">
-              <span class="main-title">Welcom to Course Portal</span>
-              <span class="other-inf">Огромный выбор курсов на любые темы</span>
-          </div>
-      </div>
-      <div class="main-content">
-          <div class="all-courses">
-              <span>Все курсы</span>
-              <div class="row">
-                  <div class="course">
-                      <div class="logo-course"><img src="images/atoms_dva.jpg" alt=""></div>
-                      <div class="course-name"><a href="course.html">Изучение квантового мира</a></div>
-                      <div class="course-info">
-                          <div class="number-listeners"><span>30</span></div>
-                          <div class="begin"><span>10-05-2015</span></div>
-                          <div class="duration">1.5 месяца</div>
-                      </div>
-                      <div class="registration"><a href="course.html">Просмотреть</a></div>
-                  </div>
-                  <div class="course">
-                      <div class="logo-course"><img src="images/math.jpg"></div>
-                      <div class="course-name"><a href="/">Высшая математика с Владом</a></div>
-                      <div class="course-info">
-                          <div class="number-listeners"><span>30</span></div>
-                          <div class="begin"><span>10-05-2015</span></div>
-                          <div class="duration">1.5 месяца</div>
-                      </div>
-                      <div class="registration"><a href="/">Просмотреть</a></div>
-                  </div>
-                  <div class="course">
-                      <div class="logo-course"><img src="images/russian.png"></div>
-                      <div class="course-name"><a href="/">Подготовка к ЦТ по русскому языку</a></div>
-                      <div class="course-info">
-                          <div class="number-listeners"><span>30</span></div>
-                          <div class="begin"><span>10-05-2015</span></div>
-                          <div class="duration">1.5 месяца</div>
-                      </div>
-                      <div class="registration"><a href="/">Просмотреть</a></div>
-                  </div>
-                  <div class="course">
-                      <div class="logo-course"><img src="images/computer.jpg"></div>
-                      <div class="course-name"><a href="/">Основы работы с компьютером</a></div>
-                      <div class="course-info">
-                          <div class="number-listeners"><span>12</span></div>
-                          <div class="begin"><span>20-05-2015</span></div>
-                          <div class="duration">2 месяца</div>
-                      </div>
-                      <div class="registration"><a href="/">Подать заявку</a></div>
-                  </div>
-              </div>
-              <div class="row">
-                  <div class="course">
-                      <div class="logo-course"><img src="images/atoms_dva.jpg" alt=""></div>
-                      <div class="course-name"><a href="">Изучение квантового мира</a></div>
-                      <div class="course-info">
-                          <div class="number-listeners"><span>30</span></div>
-                          <div class="begin"><span>10-05-2015</span></div>
-                          <div class="duration">1.5 месяца</div>
-                      </div>
-                      <div class="registration"><a href="">Просмотреть</a></div>
-                  </div>
-                  <div class="course">
-                      <div class="logo-course"><img src="images/math.jpg"></div>
-                      <div class="course-name"><a href="/">Высшая математика с Владом</a></div>
-                      <div class="course-info">
-                          <div class="number-listeners"><span>30</span></div>
-                          <div class="begin"><span>10-05-2015</span></div>
-                          <div class="duration">1.5 месяца</div>
-                      </div>
-                      <div class="registration"><a href="/">Просмотреть</a></div>
-                  </div>
-                  <div class="course">
-                      <div class="logo-course"><img src="images/russian.png"></div>
-                      <div class="course-name"><a href="/">Подготовка к ЦТ по русскому языку</a></div>
-                      <div class="course-info">
-                          <div class="number-listeners"><span>30</span></div>
-                          <div class="begin"><span>10-05-2015</span></div>
-                          <div class="duration">1.5 месяца</div>
-                      </div>
-                      <div class="registration"><a href="/">Просмотреть</a></div>
-                  </div>
-                  <div class="course">
-                      <div class="logo-course"><img src="images/computer.jpg"></div>
-                      <div class="course-name"><a href="/">Основы работы с компьютером</a></div>
-                      <div class="course-info">
-                          <div class="number-listeners"><span>12</span></div>
-                          <div class="begin"><span>20-05-2015</span></div>
-                          <div class="duration">2 месяца</div>
-                      </div>
-                      <div class="registration"><a href="/">Подать заявку</a></div>
-                  </div>
-              </div>
-          </div>
-
-          <div class="more-courses">
-              <a href="/">Больше курсов</a>
-          </div>
-          <div class="stab"></div>
-      </div>
-      <footer class="main-footer">
-          COURSE PORTAL
-
-      </footer>
-
-      </div>
-  <a href="" class="overlay" id="overlay"></a>
-  <div class="regestration-window">
-      <div class="window-header main-header">
-          COURSE PORTAL
-      </div>
+                    <div class="separator"></div>
+                    <form action="ControllerLocal" method="post">
+                        <input type="hidden" name="local" value="en"/>
+                        <button> ${en_button}</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
 
 
+    <jsp:include page="${pageContext.request.contextPath}/Controller">
+        <jsp:param name="command" value="all-courses"/>
+    </jsp:include>
 
 
+    <div class="banner">
+        <img src="images/cover_banner.jpg" alt="">
+        <div class="title-banner">
+            <span class="main-title">${welcome}</span>
+            <span class="other-inf">${large_choose}</span>
+        </div>
+    </div>
+    <div class="main-content">
+        <div class="all-courses">
+            <div class="courses-header">
+                <span>${all_courses}</span>
+            </div>
 
-      <form class="form-regestration" action="Controller" method="post">
-          <input type="hidden" name="command" value="login" />
+            <c:set var="countSubjectStudent" value="${0}" scope="page"/>
+            <c:forEach var="subjectForStudent" items="${requestScope.subject}">
 
-          <input class="input-field" placeholder="Введите логин" type="text" name="login"/>
-          <input class="input-field" placeholder="Введите пароль" type="password" name="password"/>
+                <c:if test="${(countSubjectStudent%4)==0}">
+                    <div class="row">
+                </c:if>
 
-          <button class="signin-button submit" type="submit">${signIn}</button>
-          <div class="or"><span>ИЛИ</span></div>
 
-          <button class="signin-button submit" type="submit">${registration}</button>
-      </form>
+                <div class="course-index">
+                    <div class="logo-course"><img src="${pageContext.request.contextPath}/images/atoms_dva.jpg">
+                    </div>
+                    <div class="course-name"><a href="">${subjectForStudent.courseName}</a></div>
+                    <div class="course-info">
+                        <div class="number-listeners">
 
-  </div>
-  </body>
+                            <tft:dayTimeCourse locale="${sessionScope.local}" dayTime="${subjectForStudent.time}"/>
+                        </div>
+                        <div class="begin">
+                            <span>${subjectForStudent.startCourse} - ${subjectForStudent.endCourse}</span></div>
+                    </div>
+
+                    <form action="Controller" method="post">
+                        <input type="hidden" name="command" value="course"/>
+
+                        <input type="hidden" name="course" value="${subjectForStudent.id}"/>
+
+                        <button class="signin-button submit" type="submit">${view}</button>
+                    </form>
+                </div>
+                <c:set var="countSubjectStudent" value="${countSubjectStudent+1}" scope="page"/>
+                <c:if test="${(countSubjectStudent%4)==0}"></div></c:if>
+            </c:forEach>
+
+
+        </div>
+
+
+    </div>
+
+    <div class="stab"></div>
+</div>
+<footer class="main-footer">
+    ${course_portal}
+
+</footer>
+
+<c:set var="notCorrectLoginOrPassword" value="notCorrectLoginOrPassword"/>
+
+<c:choose>
+<c:when test="${requestScope.message eq  notCorrectLoginOrPassword}">
+<a href="" class="overlay" style="display: block"></a>
+<div class="regestration-window" style="display: block">
+
+    </c:when>
+    <c:otherwise>
+    <a href="" class="overlay" id="overlay"></a>
+    <div class="regestration-window">
+        </c:otherwise>
+        </c:choose>
+        <div class="window-header main-header">
+            ${course_portal}
+        </div>
+
+        <form class="form-regestration" action="Controller" method="post">
+            <input type="hidden" name="command" value="login"/>
+            <c:if test="${not empty requestScope.message}">
+                *${error_login_or_passwors}</c:if>
+
+            <input class="input-field" placeholder="${login}" type="text" name="login" pattern="[\w]+"/>
+            <input class="input-field" placeholder="${password}" type="password" name="password" pattern="[\w]+"/>
+
+            <button class="signin-button submit" type="submit">${signIn}</button>
+        </form>
+
+        <c:choose>
+        <c:when test="${not empty requestScope.message}">
+    </div>
+    </c:when>
+    <c:otherwise>
+</div>
+</c:otherwise>
+</c:choose>
+
+
+<c:set var="loginBad" value="loginBad"/>
+
+<c:choose>
+<c:when test="${requestScope.message eq  loginBad}">
+<a href="" class="overlay" style="display: block"></a>
+<div class="regestration-window" style="display: block">
+
+    </c:when>
+    <c:otherwise>
+    <a href="" class="overlay" id="registration"></a>
+    <div class="regestration-window">
+        </c:otherwise>
+        </c:choose>
+        <div class="window-header main-header">
+            ${course_portal}
+        </div>
+
+
+        <form class="form-regestration" action="Controller" method="post">
+
+            <c:if test="${not empty requestScope.message}">
+                *${error_login}</c:if>
+            <input type="hidden" name="command" value="registration-student"/>
+            <input class="input-field" placeholder="${login}" type="text" name="login" pattern="[\w]+"/>
+            <input class="input-field" placeholder="${password}" type="password" name="password" pattern="[\w]+"/>
+            <button class="signin-button submit" type="submit">${registration}</button>
+        </form>
+
+        <c:choose>
+        <c:when test="${requestScope.message eq  loginBad}">
+    </div>
+    </c:when>
+    <c:otherwise>
+</div>
+</c:otherwise>
+</c:choose>
+
+
+</body>
 
 
 </html>
