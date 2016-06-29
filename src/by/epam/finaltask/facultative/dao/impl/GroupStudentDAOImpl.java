@@ -21,7 +21,13 @@ public class GroupStudentDAOImpl implements GroupStudentDAO {
     private final static String SQL_SURNAME="surname";
 
 
-
+    /**
+     * get student group for current subject and teacher
+     *
+     * @param course
+     * @return listStudents
+     * @throws DAOException
+     */
     public List<CourseStatistic> getGroupOfStudentForCurrentSubject ( CourseDescription course) throws DAOException {
         ConnectionPool connectionPool = ConnectionPool.getInstance();
         Connection connection = null;

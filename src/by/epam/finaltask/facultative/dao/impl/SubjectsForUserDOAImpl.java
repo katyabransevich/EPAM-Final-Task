@@ -35,7 +35,13 @@ public class SubjectsForUserDOAImpl implements SubjectsForUserDAO {
     private final static String SQL_ID_TEACHER = "id_teacher";
     private final static String SQL_COURSE_DESCRIPTION = "description";
 
-
+    /**
+     * get all courses that teacher teaches
+     *
+     * @param teacher
+     * @return listSubjectsForTeacher
+     * @throws DAOException
+     */
     public List<CourseDescription> getSubjectsForTeacher(User teacher) throws DAOException {
         ConnectionPool connectionPool = ConnectionPool.getInstance();
         Connection connection = null;
@@ -72,6 +78,13 @@ public class SubjectsForUserDOAImpl implements SubjectsForUserDAO {
 
     }
 
+    /**
+     * get all courses that visit student
+     *
+     * @param student
+     * @return listSubjectsForTeacher
+     * @throws DAOException
+     */
     @Override
     public List<CourseDescription> getSubjectsForStudent(User student) throws DAOException {
         ConnectionPool connectionPool = ConnectionPool.getInstance();
@@ -95,6 +108,14 @@ public class SubjectsForUserDOAImpl implements SubjectsForUserDAO {
         }
 
     }
+
+    /**
+     * get all courses for student that could visit
+     *
+     * @param student
+     * @return listSubjectsForTeacher
+     * @throws DAOException
+     */
 
     @Override
     public List<CourseDescription> getOtherSubjectsForStudent(User student) throws DAOException {
@@ -140,6 +161,13 @@ public class SubjectsForUserDOAImpl implements SubjectsForUserDAO {
         return listSubjectsForTeacher;
     }
 
+    /**
+     * get all courses for index jsp
+     *
+     *
+     * @return listCourseDescription
+     * @throws DAOException
+     */
 
     public List<CourseDescription> getAllSubject() throws DAOException {
         ConnectionPool connectionPool = ConnectionPool.getInstance();
@@ -182,6 +210,13 @@ public class SubjectsForUserDOAImpl implements SubjectsForUserDAO {
 
     }
 
+    /**
+     * get oll information of current course
+     *
+     * @param idSubject
+     * @return courseDescription
+     * @throws DAOException
+     */
 
     public CourseDescription getDescriptionSubject(int idSubject) throws DAOException {
         ConnectionPool connectionPool = ConnectionPool.getInstance();

@@ -23,6 +23,14 @@ public class UserDAOImpl implements UserDAO {
     private final static String SQL_USER_SKYPE="skype";
     private final static String SQL_USER_TYPE="type";
 
+    /**
+     * check if current user is in the datedase and if he there then we take all information of him
+     *
+     * @param user
+     * @return user
+     * @throws DAOException
+     */
+
     public User authorization(User user) throws DAOException {
         ConnectionPool connectionPool = ConnectionPool.getInstance();
         Connection connection = null;
@@ -54,6 +62,14 @@ public class UserDAOImpl implements UserDAO {
         }
 
     }
+
+    /**
+     * chech if this user is in datebase if we dont find him than insert him
+     *
+     * @param user
+     * @return user
+     * @throws DAOException
+     */
 
     @Override
     public User registration(User user) throws DAOException {
@@ -96,6 +112,12 @@ public class UserDAOImpl implements UserDAO {
         }
     }
 
+    /**
+     * update user information
+     *
+     * @param user
+     * @throws DAOException
+     */
     @Override
     public void updateUser(User user) throws DAOException {
         ConnectionPool connectionPool = ConnectionPool.getInstance();

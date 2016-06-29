@@ -22,6 +22,14 @@ a {
 	height: 60px;
 	z-index: 1000;
 }
+.regist-teacher{
+	width: 500px;
+	height: 300px;
+	background-color: #f9f9f9;
+	padding: 20px;
+	margin: 10px 40px;
+
+}
 .menu-navigation {
 	list-style: none;
 	float: left;
@@ -33,21 +41,18 @@ a {
 	position: relative;
 	display: block;
 	padding-left: 10px;
-	padding-right: 10px; 	
+	padding-right: 10px;
 }
 .menu-navigation > li:hover {
 	background-color: rgb(21, 124,140);
 }
 .href-nav {
 	height: 60px;
- 	line-height: 60px;
- 	text-decoration: none;
- 	font-size: 18px;
- 	color: white;
- 	display: block;
-}
-.href-nav span {
-	margin-right: 7px;
+	line-height: 60px;
+	text-decoration: none;
+	font-size: 18px;
+	color: white;
+	display: block;
 }
 .sign-in {
 	position: absolute;
@@ -70,9 +75,8 @@ a {
 	cursor: pointer;
 	display: inline-block;
 	line-height: 60px;
-
-
 }
+
 .signin-button:hover {
 	background-color: #8cad35;
 }
@@ -87,14 +91,21 @@ a {
 	margin: 0;
 	text-align: center;
 
+
 }
-form a{
+.location form button{
+	background-color: transparent;
+	border: none;
 	color: white;
+	font-size: 18px;
+	font-family: "Arial Rounded MT Bold";
 }
+
+
 .separator {
 	position: absolute;
 	top: 15px;
-	right: 30px;
+	right: 40px;
 	height: 25px;
 	width: 1px;
 	background-color: white;
@@ -110,9 +121,7 @@ form a{
 	font-size: 18px;
 	font-weight: bold;
 }
-.location form a:hover {
-	color: rgb(21, 124,140);
-}
+
 .user {
 	height: 60px;
  	line-height: 60px;
@@ -191,13 +200,24 @@ form a{
 }
 .course {
 	width: 300px;
+	height: 380px;
+	background-color: white;
+}
+.course-teacher {
+	width: 300px;
 	height: 420px;
+	background-color: white;
+}
+
+.course-index {
+	width: 300px;
+	height: 305px;
 	background-color: white;
 }
 
 .course-name {
 	padding: 10px 20px 0;
-	height: 50px;
+	height: 30px;
 	font-size: 16px;
 	text-transform: uppercase;
 	vertical-align: middle;
@@ -207,6 +227,17 @@ form a{
 	color: black;
 	text-decoration: none;
 }
+
+.course-index  a {
+	color: black;
+	text-decoration: none;
+}
+.course-teacher  a {
+	color: black;
+	text-decoration: none;
+}
+
+
 .course-info {
 	/*height: 50px;*/
 	margin-top: 10px; 
@@ -251,14 +282,14 @@ form a{
 	margin-left: 10px;
 }
 
-.more-courses {
+.courses-header {
 	height: 3px;
     background-color: #fff;
     position: relative;
-    margin: 55px 0 20px;
+    margin: 55px 0 40px;
 }
 
-.more-courses a {
+.courses-header span {
 	display: block;
     border-radius: 20px;
     position: absolute;
@@ -268,10 +299,10 @@ form a{
     bottom: 0;
     margin: 0 auto;
     height: 40px;
-    width: 185px;
-    font-size: 16px;
+    width: 300px;
+    font-size: 24px;
     text-transform: uppercase;
-    color: #39c2d7;
+    color: #3d2fd7;
     background-color: #fff;
     text-decoration: none;
     text-align: center;

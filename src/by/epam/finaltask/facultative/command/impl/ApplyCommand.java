@@ -11,7 +11,7 @@ import by.epam.finaltask.facultative.service.exception.ServiceException;
 import javax.servlet.http.HttpServletRequest;
 
 
-public class ApplyCommand  implements Command {
+public class ApplyCommand implements Command {
 
 
     private static final String ID_SUBJECT = "course";
@@ -23,18 +23,16 @@ public class ApplyCommand  implements Command {
     public String execute(HttpServletRequest request) throws CommandException {
         String page;
         try {
-           User user =(User)request.getSession().getAttribute(USER);
-            int idStudent=user.getId();
-            int idSubject=Integer.parseInt(request.getParameter(ID_SUBJECT));
-            if (OperationWithCourseService.applyCourseForStudent(idStudent,idSubject)) {
-                request.setAttribute(SUBJECT, CourseService.getOtherSubjectForStudent(user));
-                page = PageName.ALL_COURSES;
-            } else {
-                page = PageName.ERROR_PAGE;
-            }
+            User user = (User) request.getSession().getAttribute(USER);
+            int idStudent = user.getId();
+            int idSubject = Integer.parseInt(request.getParameter(ID_SUBJECT));
+            OperationWithCourseService.applyCourseForStudent(idStudent, idSubject);
+            request.setAttribute(SUBJECT, CourseService.getOtherSubjectForStudent(user));
+            page = PageName.ALL_COURSES;
+
         } catch (ServiceException e) {
             throw new CommandException(e);
-    }
+        }
 
         return page;
     }

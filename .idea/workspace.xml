@@ -6,13 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9fc3f890-4790-46ac-b990-85b3d71fdd59" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/by/epam/finaltask/facultative/command/impl/BackCommand.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/by/epam/finaltask/facultative/dao/OperationWithCourseDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/by/epam/finaltask/facultative/dao/impl/UserDAOImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/by/epam/finaltask/facultative/resourses/AllErrorMessages.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/by/epam/finaltask/facultative/resourses/Message.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/by/epam/finaltask/facultative/service/UserService.java" />
+    <list default="true" id="9fc3f890-4790-46ac-b990-85b3d71fdd59" name="Default" comment="all">
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/FinalTask_war_exploded/WEB-INF/classes/by/epam/finaltask/facultative/command/impl/BackViewCourseStudentCommand.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/FinalTask_war_exploded/WEB-INF/classes/by/epam/finaltask/facultative/command/impl/RegistrationCommand.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/FinalTask_war_exploded/WEB-INF/classes/by/epam/finaltask/facultative/command/impl/SaveStudent.class" afterPath="" />
@@ -54,15 +48,6 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FinalTask/by/epam/finaltask/facultative/service/SaveUserService$Validator.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FinalTask/by/epam/finaltask/facultative/service/SaveUserService.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/FinalTask/by/epam/finaltask/facultative/service/SubjectService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/epam/finaltask/facultative/command/impl/BackViewCourseStudentCommand.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/epam/finaltask/facultative/dao/Apply.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/epam/finaltask/facultative/dao/RegistrationUser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/epam/finaltask/facultative/dao/ViewCourse.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/epam/finaltask/facultative/dao/impl/AuthorizationUserDAOImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/epam/finaltask/facultative/dao/impl/RegistrationUserDAOImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/epam/finaltask/facultative/service/AuthorizationUserService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/epam/finaltask/facultative/service/SaveUserService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/registration.jsp" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/FinalTask_war/FinalTask_war.war" afterPath="$PROJECT_DIR$/out/artifacts/FinalTask_war/FinalTask_war.war" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/FinalTask_war_exploded/WEB-INF/classes/by/epam/finaltask/facultative/command/CommandName.class" afterPath="$PROJECT_DIR$/out/artifacts/FinalTask_war_exploded/WEB-INF/classes/by/epam/finaltask/facultative/command/CommandName.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/FinalTask_war_exploded/WEB-INF/classes/by/epam/finaltask/facultative/command/impl/ApplyCommand.class" afterPath="$PROJECT_DIR$/out/artifacts/FinalTask_war_exploded/WEB-INF/classes/by/epam/finaltask/facultative/command/impl/ApplyCommand.class" />
@@ -110,6 +95,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/FinalTask_war_exploded/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/out/artifacts/FinalTask_war_exploded/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/FinalTask_war_exploded/index.jsp" afterPath="$PROJECT_DIR$/out/artifacts/FinalTask_war_exploded/index.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/FinalTask_war_exploded/style/course.css" afterPath="$PROJECT_DIR$/out/artifacts/FinalTask_war_exploded/style/course.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/FinalTask_war_exploded/style/group.css" afterPath="$PROJECT_DIR$/out/artifacts/FinalTask_war_exploded/style/group.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/FinalTask_war_exploded/style/main.css" afterPath="$PROJECT_DIR$/out/artifacts/FinalTask_war_exploded/style/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/FinalTask_war_exploded/style/sign-in.css" afterPath="$PROJECT_DIR$/out/artifacts/FinalTask_war_exploded/style/sign-in.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/FinalTask_war_exploded/style/student-profile.css" afterPath="$PROJECT_DIR$/out/artifacts/FinalTask_war_exploded/style/student-profile.css" />
@@ -117,49 +103,16 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/FinalTask/localization/local.properties" afterPath="$PROJECT_DIR$/out/production/FinalTask/localization/local.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/FinalTask/localization/local_en.properties" afterPath="$PROJECT_DIR$/out/production/FinalTask/localization/local_en.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/FinalTask/localization/local_ru.properties" afterPath="$PROJECT_DIR$/out/production/FinalTask/localization/local_ru.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/epam/finaltask/facultative/command/CommandName.java" afterPath="$PROJECT_DIR$/src/by/epam/finaltask/facultative/command/CommandName.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/epam/finaltask/facultative/command/impl/ApplyCommand.java" afterPath="$PROJECT_DIR$/src/by/epam/finaltask/facultative/command/impl/ApplyCommand.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/epam/finaltask/facultative/command/impl/AuthorizationCommand.java" afterPath="$PROJECT_DIR$/src/by/epam/finaltask/facultative/command/impl/AuthorizationCommand.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/epam/finaltask/facultative/command/impl/GroupStudentCommand.java" afterPath="$PROJECT_DIR$/src/by/epam/finaltask/facultative/command/impl/GroupStudentCommand.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/epam/finaltask/facultative/command/impl/SignOutCommant.java" afterPath="$PROJECT_DIR$/src/by/epam/finaltask/facultative/command/impl/SignOutCommant.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/epam/finaltask/facultative/command/impl/UnknownCommand.java" afterPath="$PROJECT_DIR$/src/by/epam/finaltask/facultative/command/impl/UnknownCommand.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/epam/finaltask/facultative/command/impl/UpdateMarkCommentCommand.java" afterPath="$PROJECT_DIR$/src/by/epam/finaltask/facultative/command/impl/UpdateMarkCommentCommand.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/epam/finaltask/facultative/command/impl/ViewCourseCommand.java" afterPath="$PROJECT_DIR$/src/by/epam/finaltask/facultative/command/impl/ViewCourseCommand.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/epam/finaltask/facultative/controller/Controller.java" afterPath="$PROJECT_DIR$/src/by/epam/finaltask/facultative/controller/Controller.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/epam/finaltask/facultative/controller/ControllerLocal.java" afterPath="$PROJECT_DIR$/src/by/epam/finaltask/facultative/controller/ControllerLocal.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/epam/finaltask/facultative/controller/PageName.java" afterPath="$PROJECT_DIR$/src/by/epam/finaltask/facultative/controller/PageName.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/epam/finaltask/facultative/controller/helper/CommandHelp.java" afterPath="$PROJECT_DIR$/src/by/epam/finaltask/facultative/controller/helper/CommandHelp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/epam/finaltask/facultative/dao/OperationWithCourseDAO.java" afterPath="$PROJECT_DIR$/src/by/epam/finaltask/facultative/dao/OperationWithCourseDAO.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/epam/finaltask/facultative/dao/impl/GroupStudentDAOImpl.java" afterPath="$PROJECT_DIR$/src/by/epam/finaltask/facultative/dao/impl/GroupStudentDAOImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/epam/finaltask/facultative/dao/impl/OperationWithCourseDAOImpl.java" afterPath="$PROJECT_DIR$/src/by/epam/finaltask/facultative/dao/impl/OperationWithCourseDAOImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/epam/finaltask/facultative/dao/impl/SubjectsForUserDOAImpl.java" afterPath="$PROJECT_DIR$/src/by/epam/finaltask/facultative/dao/impl/SubjectsForUserDOAImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/epam/finaltask/facultative/dao/impl/UpdateContextTableStudentDAOImpl.java" afterPath="$PROJECT_DIR$/src/by/epam/finaltask/facultative/dao/impl/UpdateContextTableStudentDAOImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/epam/finaltask/facultative/service/GroupStudentService.java" afterPath="$PROJECT_DIR$/src/by/epam/finaltask/facultative/service/GroupStudentService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/epam/finaltask/facultative/service/UpdateContextService.java" afterPath="$PROJECT_DIR$/src/by/epam/finaltask/facultative/service/UpdateContextService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/localization/local.properties" afterPath="$PROJECT_DIR$/src/localization/local.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/localization/local_en.properties" afterPath="$PROJECT_DIR$/src/localization/local_en.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/localization/local_ru.properties" afterPath="$PROJECT_DIR$/src/localization/local_ru.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/Student_group_page.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/Student_group_page.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/Student_page.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/Student_page.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/epam/finaltask/facultative/dao/impl/UserDAOImpl.java" afterPath="$PROJECT_DIR$/src/by/epam/finaltask/facultative/dao/impl/UserDAOImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/epam/finaltask/facultative/entity/CourseDescription.java" afterPath="$PROJECT_DIR$/src/by/epam/finaltask/facultative/entity/CourseDescription.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/epam/finaltask/facultative/service/OperationWithCourseService.java" afterPath="$PROJECT_DIR$/src/by/epam/finaltask/facultative/service/OperationWithCourseService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/Teacher_page.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/Teacher_page.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/View_course_page.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/View_course_page.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/lib/LICENSE.txt" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/LICENSE.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.jsp" afterPath="$PROJECT_DIR$/web/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/style/course.css" afterPath="$PROJECT_DIR$/web/style/course.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/style/group.css" afterPath="$PROJECT_DIR$/web/style/group.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/style/main.css" afterPath="$PROJECT_DIR$/web/style/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/style/sign-in.css" afterPath="$PROJECT_DIR$/web/style/sign-in.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/style/student-profile.css" afterPath="$PROJECT_DIR$/web/style/student-profile.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/style/teacher.css" afterPath="$PROJECT_DIR$/web/style/teacher.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/by/epam/finaltask/facultative/command/impl/RegistrationCommand.java" afterPath="$PROJECT_DIR$/src/by/epam/finaltask/facultative/command/impl/RegistrationStudentCommand.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/by/epam/finaltask/facultative/command/impl/SaveStudent.java" afterPath="$PROJECT_DIR$/src/by/epam/finaltask/facultative/command/impl/SaveUser.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/by/epam/finaltask/facultative/command/impl/UpdateStudent.java" afterPath="$PROJECT_DIR$/src/by/epam/finaltask/facultative/command/impl/UpdateUser.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/by/epam/finaltask/facultative/dao/AuthorizationUser.java" afterPath="$PROJECT_DIR$/src/by/epam/finaltask/facultative/dao/UserDAO.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/by/epam/finaltask/facultative/dao/GroupStudent.java" afterPath="$PROJECT_DIR$/src/by/epam/finaltask/facultative/dao/GroupStudentDAO.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/by/epam/finaltask/facultative/dao/SubjectsForUser.java" afterPath="$PROJECT_DIR$/src/by/epam/finaltask/facultative/dao/SubjectsForUserDAO.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/by/epam/finaltask/facultative/dao/UpdateContextTableStudent.java" afterPath="$PROJECT_DIR$/src/by/epam/finaltask/facultative/dao/UpdateContextTableStudentDAO.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/by/epam/finaltask/facultative/dao/impl/ApplyDAOImpl.java" afterPath="$PROJECT_DIR$/src/by/epam/finaltask/facultative/dao/impl/OperationWithCourseDAOImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/by/epam/finaltask/facultative/service/ApplyService.java" afterPath="$PROJECT_DIR$/src/by/epam/finaltask/facultative/service/OperationWithCourseService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/by/epam/finaltask/facultative/service/SubjectService.java" afterPath="$PROJECT_DIR$/src/by/epam/finaltask/facultative/service/CourseService.java" />
     </list>
     <ignored path="FinalTask.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -235,108 +188,131 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="102" column="30" selection-start-line="102" selection-start-column="30" selection-end-line="102" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Teacher_page.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/Teacher_page.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="57" />
+            <state relative-caret-position="244">
+              <caret line="155" column="0" selection-start-line="155" selection-start-column="0" selection-end-line="155" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Student_page.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/Student_page.jsp">
+      <file leaf-file-name="OperationWithCourseDAOImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/epam/finaltask/facultative/dao/impl/OperationWithCourseDAOImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-51">
-              <caret line="53" column="31" selection-start-line="53" selection-start-column="31" selection-end-line="53" selection-end-column="66" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Courses.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/Courses.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="104" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DayTimeTag.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/by/epam/finaltask/facultative/tag/DayTimeTag.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="38" column="48" selection-start-line="38" selection-start-column="48" selection-end-line="38" selection-end-column="48" />
+            <state relative-caret-position="162">
+              <caret line="106" column="11" selection-start-line="106" selection-start-column="11" selection-end-line="106" selection-end-column="67" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#157#184#0" expanded="true" />
-                <element signature="e#681#682#0" expanded="true" />
-                <element signature="e#717#718#0" expanded="true" />
-                <element signature="e#763#764#0" expanded="true" />
-                <element signature="e#801#802#0" expanded="true" />
+                <marker date="1467183559239" expanded="true" signature="645:801" placeholder="UPDATE teach... " />
+                <marker date="1467183559239" expanded="true" signature="702:777" placeholder="select numbe... teacher_schedule" />
+                <marker date="1467183559239" expanded="true" signature="858:919" placeholder="INSERT INTO facultative... " />
+                <marker date="1467183559239" expanded="true" signature="984:1138" placeholder="update teach... " />
+                <marker date="1467183559239" expanded="true" signature="1040:1115" placeholder="Select numbe... teacher_schedule" />
+                <marker date="1467183559239" expanded="true" signature="1196:1257" placeholder="DELETE FROM " />
+                <marker date="1467183559239" expanded="true" signature="1310:1510" placeholder="INSERT INTO teacher_schedule... " />
+                <marker date="1467183559239" expanded="true" signature="1575:1576" placeholder="DELETE FROM " />
+                <marker date="1467183559239" expanded="true" signature="1575:1623" placeholder="Delete from " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dayTime.tld" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/tld/dayTime.tld">
+      <file leaf-file-name="SubjectsForUserDOAImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/epam/finaltask/facultative/dao/impl/SubjectsForUserDOAImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="27" />
+            <state relative-caret-position="-565">
+              <caret line="213" column="26" selection-start-line="213" selection-start-column="26" selection-end-line="213" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1467184309664" expanded="true" signature="662:830" placeholder="SELECT DISTI... teacher_schedule" />
+                <marker date="1467184309664" expanded="true" signature="893:1200" placeholder="SELECT DISTI... teacher_schedule" />
+                <marker date="1467184309664" expanded="true" signature="1269:1564" placeholder="SELECT DISTI... teacher_schedule" />
+                <marker date="1467184309664" expanded="true" signature="1269:1566" placeholder="SELECT DISTI... teacher_schedule" />
+                <marker date="1467184309664" expanded="true" signature="1488:1541" placeholder="Select id_su... facultative" />
+                <marker date="1467184309664" expanded="true" signature="1488:1543" placeholder="Select id_su... facultative" />
+                <marker date="1467184309664" expanded="true" signature="1621:1820" placeholder="SELECT DISTI... teacher_schedule" />
+                <marker date="1467184309664" expanded="true" signature="1887:2115" placeholder="SELECT id_su... teacher_schedule" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UpdateContextTableStudentDAOImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/epam/finaltask/facultative/dao/impl/UpdateContextTableStudentDAOImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-242">
+              <caret line="50" column="45" selection-start-line="50" selection-start-column="45" selection-end-line="50" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1467184309732" expanded="true" signature="566:634" placeholder="update facul... " />
+                <marker date="1467184309732" expanded="true" signature="689:760" placeholder="update facul... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserDAOImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/epam/finaltask/facultative/dao/impl/UserDAOImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-327">
+              <caret line="115" column="19" selection-start-line="115" selection-start-column="19" selection-end-line="115" selection-end-column="19" />
+              <folding>
+                <marker date="1467184309583" expanded="true" signature="489:527" placeholder="SELECT id FR... authoriz" />
+                <marker date="1467184309583" expanded="true" signature="578:635" placeholder="INSERT into authoriz... " />
+                <marker date="1467184309583" expanded="true" signature="584:635" placeholder="insert into authoriz... " />
+                <marker date="1467184309583" expanded="true" signature="688:774" placeholder="UPDATE autho... " />
+                <marker date="1467184309583" expanded="true" signature="824:924" placeholder="SELECT id, n... authoriz" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddCourseCommand.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/epam/finaltask/facultative/command/impl/AddCourseCommand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="281">
+              <caret line="39" column="37" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <file leaf-file-name="CourseDescription.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/epam/finaltask/facultative/entity/CourseDescription.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="38" column="53" selection-start-line="38" selection-start-column="53" selection-end-line="38" selection-end-column="53" />
+            <state relative-caret-position="34">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="teacher.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/style/teacher.css">
+      <file leaf-file-name="GroupStudentService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/epam/finaltask/facultative/service/GroupStudentService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="41" column="24" selection-start-line="37" selection-start-column="4" selection-end-line="41" selection-end-column="24" />
+            <state relative-caret-position="102">
+              <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="View_course_page.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/View_course_page.jsp">
+      <file leaf-file-name="OperationWithCourseService.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/by/epam/finaltask/facultative/service/OperationWithCourseService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="77" column="14" selection-start-line="77" selection-start-column="14" selection-end-line="77" selection-end-column="14" />
+            <state relative-caret-position="151">
+              <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="group.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/style/group.css">
+      <file leaf-file-name="ApplyCommand.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/epam/finaltask/facultative/command/impl/ApplyCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
+            <state relative-caret-position="240">
+              <caret line="28" column="83" selection-start-line="28" selection-start-column="83" selection-end-line="28" selection-end-column="83" />
               <folding />
             </state>
           </provider>
@@ -368,13 +344,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/by/epam/finaltask/facultative/controller/Controller.java" />
-        <option value="$PROJECT_DIR$/src/by/epam/finaltask/facultative/command/impl/BackCommand.java" />
-        <option value="$PROJECT_DIR$/src/by/epam/finaltask/facultative/command/impl/AllCoursesForStudent.java" />
         <option value="$PROJECT_DIR$/src/by/epam/finaltask/facultative/command/impl/AllCoursesForStudentCommand.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/jsp/Student_page.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/jsp/All_courses_for_student_page.jsp" />
-        <option value="$PROJECT_DIR$/src/by/epam/finaltask/facultative/command/impl/AddCourseCommand.java" />
         <option value="$PROJECT_DIR$/src/by/epam/finaltask/facultative/command/impl/AllCoursesCommand.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/jsp/Sign_in_page.jsp" />
         <option value="$PROJECT_DIR$/src/by/epam/finaltask/facultative/service/Message.java" />
@@ -384,13 +356,8 @@
         <option value="$PROJECT_DIR$/src/by/epam/finaltask/facultative/filter/EncodingFilter.java" />
         <option value="$PROJECT_DIR$/src/by/epam/finaltask/facultative/dao/SubjectsForUserDAO.java" />
         <option value="$PROJECT_DIR$/src/by/epam/finaltask/facultative/service/CourseService.java" />
-        <option value="$PROJECT_DIR$/src/by/epam/finaltask/facultative/dao/impl/GroupStudentDAOImpl.java" />
-        <option value="$PROJECT_DIR$/src/by/epam/finaltask/facultative/dao/impl/UpdateContextTableStudentDAOImpl.java" />
-        <option value="$PROJECT_DIR$/src/by/epam/finaltask/facultative/dao/impl/SubjectsForUserDOAImpl.java" />
         <option value="$PROJECT_DIR$/web/style/teacher.css" />
         <option value="$PROJECT_DIR$/web/style/course.css" />
-        <option value="$PROJECT_DIR$/src/by/epam/finaltask/facultative/service/OperationWithCourseService.java" />
-        <option value="$PROJECT_DIR$/src/by/epam/finaltask/facultative/dao/impl/OperationWithCourseDAOImpl.java" />
         <option value="$PROJECT_DIR$/src/by/epam/finaltask/facultative/service/UserService.java" />
         <option value="$PROJECT_DIR$/src/by/epam/finaltask/facultative/command/impl/RegistrationCommand.java" />
         <option value="$PROJECT_DIR$/src/by/epam/finaltask/facultative/command/impl/RegistrationStudentCommand.java" />
@@ -401,7 +368,6 @@
         <option value="$PROJECT_DIR$/src/by/epam/finaltask/facultative/controller/PageName.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/jsp/Admin_page.jsp" />
         <option value="$PROJECT_DIR$/src/by/epam/finaltask/facultative/command/impl/RegistrationTeacherCommand.java" />
-        <option value="$PROJECT_DIR$/src/by/epam/finaltask/facultative/dao/impl/UserDAOImpl.java" />
         <option value="$PROJECT_DIR$/src/localization/local_ru.properties" />
         <option value="$PROJECT_DIR$/src/localization/local_en.properties" />
         <option value="$PROJECT_DIR$/src/localization/local.properties" />
@@ -415,10 +381,20 @@
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/web/WEB-INF/tld/dayTime.tld" />
         <option value="$PROJECT_DIR$/src/by/epam/finaltask/facultative/tag/DayTimeTag.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/Teacher_page.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/jsp/Courses.jsp" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/jsp/View_course_page.jsp" />
+        <option value="$PROJECT_DIR$/src/by/epam/finaltask/facultative/command/impl/AddCourseCommand.java" />
+        <option value="$PROJECT_DIR$/src/by/epam/finaltask/facultative/dao/impl/GroupStudentDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/by/epam/finaltask/facultative/dao/OperationWithCourseDAO.java" />
+        <option value="$PROJECT_DIR$/src/by/epam/finaltask/facultative/command/impl/ApplyCommand.java" />
+        <option value="$PROJECT_DIR$/src/by/epam/finaltask/facultative/dao/impl/OperationWithCourseDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/by/epam/finaltask/facultative/dao/impl/SubjectsForUserDOAImpl.java" />
+        <option value="$PROJECT_DIR$/src/by/epam/finaltask/facultative/dao/impl/UpdateContextTableStudentDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/by/epam/finaltask/facultative/dao/impl/UserDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/by/epam/finaltask/facultative/entity/CourseDescription.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/Teacher_page.jsp" />
+        <option value="$PROJECT_DIR$/src/by/epam/finaltask/facultative/service/OperationWithCourseService.java" />
       </list>
     </option>
   </component>
@@ -465,7 +441,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -901,7 +877,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1624,46 +1600,55 @@
       <workItem from="1465459492803" duration="389000" />
       <workItem from="1465460280742" duration="30203000" />
       <workItem from="1465804754954" duration="31837000" />
-      <workItem from="1467056800054" duration="12541000" />
+      <workItem from="1467056800054" duration="13326000" />
+      <workItem from="1467182779340" duration="2515000" />
     </task>
+    <task id="LOCAL-00001" summary="all">
+      <created>1467153034729</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1467153034729</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="247433000" />
+    <option name="totallyTimeSpent" value="250733000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.008169935" sideWeight="0.7496218" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32843137" sideWeight="0.16641453" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32789558" sideWeight="0.16641453" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998326" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32843137" sideWeight="0.8335855" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32829046" sideWeight="0.8150852" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33358547" sideWeight="0.80097085" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31164902" sideWeight="0.12468828" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.002269289" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32352942" sideWeight="0.47881997" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.49423394" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32829046" sideWeight="0.18491484" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45676997" sideWeight="0.4969743" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33358547" sideWeight="0.19902913" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45676997" sideWeight="0.4969743" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.008169935" sideWeight="0.7496218" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.8335855" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.4969743" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32352942" sideWeight="0.47881997" order="6" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1678,7 +1663,8 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="all" />
+    <option name="LAST_COMMIT_MESSAGE" value="all" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1688,12 +1674,6 @@
           <line>39</line>
           <properties />
           <option name="timeStamp" value="22" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/by/epam/finaltask/facultative/dao/impl/UserDAOImpl.java</url>
-          <line>63</line>
-          <properties />
-          <option name="timeStamp" value="25" />
         </line-breakpoint>
       </breakpoints>
       <option name="time" value="26" />
@@ -1705,127 +1685,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/by/epam/finaltask/facultative/command/impl/GroupStudentCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/epam/finaltask/facultative/filter.java" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/0c8926b1-9e17-437d-a97c-985c00fc1a79/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/epam/finaltask/facultative/dao/connectionpool/db.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="42" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/epam/finaltask/facultative/dao/SubjectsForUserDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/epam/finaltask/facultative/service/CourseService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6">
-          <caret line="57" column="62" selection-start-line="57" selection-start-column="62" selection-end-line="57" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/epam/finaltask/facultative/command/impl/DeleteCourseStudentCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="25" column="61" selection-start-line="25" selection-start-column="61" selection-end-line="25" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/epam/finaltask/facultative/dao/impl/GroupStudentDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-452">
-          <caret line="15" column="72" selection-start-line="15" selection-start-column="72" selection-end-line="15" selection-end-column="72" />
-          <folding>
-            <marker date="1465978690712" expanded="true" signature="556:717" placeholder="SELECT DISTI... facultative" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/epam/finaltask/facultative/dao/impl/UpdateContextTableStudentDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="104" selection-start-line="14" selection-start-column="104" selection-end-line="14" selection-end-column="104" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1465978798853" expanded="true" signature="566:634" placeholder="update facul... " />
-            <marker date="1465978798853" expanded="true" signature="689:760" placeholder="update facul... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/epam/finaltask/facultative/dao/impl/SubjectsForUserDOAImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="20" column="94" selection-start-line="20" selection-start-column="94" selection-end-line="20" selection-end-column="94" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1465979329738" expanded="true" signature="662:830" placeholder="SELECT DISTI... teacher_schedule" />
-            <marker date="1465979329738" expanded="true" signature="893:1200" placeholder="SELECT DISTI... teacher_schedule" />
-            <marker date="1465979329738" expanded="true" signature="1269:1564" placeholder="SELECT DISTI... teacher_schedule" />
-            <marker date="1465979329738" expanded="true" signature="1269:1566" placeholder="SELECT DISTI... teacher_schedule" />
-            <marker date="1465979329738" expanded="true" signature="1488:1541" placeholder="Select id_su... facultative" />
-            <marker date="1465979329738" expanded="true" signature="1488:1543" placeholder="Select id_su... facultative" />
-            <marker date="1465979329738" expanded="true" signature="1621:1820" placeholder="SELECT DISTI... teacher_schedule" />
-            <marker date="1465979329738" expanded="true" signature="1887:2115" placeholder="SELECT id_su... teacher_schedule" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/epam/finaltask/facultative/service/GroupStudentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/epam/finaltask/facultative/service/OperationWithCourseService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/epam/finaltask/facultative/command/impl/AddCourseCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/epam/finaltask/facultative/filter/EncodingFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/log4j-web-2.5.jar!/org/apache/logging/log4j/web/Log4jServletFilter.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1833,29 +1692,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/epam/finaltask/facultative/dao/impl/OperationWithCourseDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1293">
-          <caret line="87" column="0" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
-          <folding>
-            <marker date="1465982415496" expanded="true" signature="643:799" placeholder="UPDATE teach... " />
-            <marker date="1465982415496" expanded="true" signature="700:775" placeholder="select numbe... teacher_schedule" />
-            <marker date="1465982415496" expanded="true" signature="855:916" placeholder="INSERT INTO facultative... " />
-            <marker date="1465982415496" expanded="true" signature="980:1134" placeholder="update teach... " />
-            <marker date="1465982415496" expanded="true" signature="1036:1111" placeholder="Select numbe... teacher_schedule" />
-            <marker date="1465982415496" expanded="true" signature="1191:1252" placeholder="DELETE FROM " />
-            <marker date="1465982415496" expanded="true" signature="1304:1504" placeholder="INSERT INTO teacher_schedule... " />
-            <marker date="1465982415496" expanded="true" signature="1568:1569" placeholder="DELETE FROM " />
-            <marker date="1465982415496" expanded="true" signature="1568:1616" placeholder="Delete from " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/by/epam/finaltask/facultative/command/impl/RegistrationStudentCommand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="382">
           <caret line="46" column="0" selection-start-line="15" selection-start-column="40" selection-end-line="46" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1863,7 +1703,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="124">
           <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1872,20 +1711,6 @@
         <state relative-caret-position="289">
           <caret line="17" column="66" selection-start-line="17" selection-start-column="66" selection-end-line="17" selection-end-column="66" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/epam/finaltask/facultative/dao/impl/UserDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1173">
-          <caret line="75" column="57" selection-start-line="75" selection-start-column="57" selection-end-line="75" selection-end-column="57" />
-          <folding>
-            <marker date="1466500887914" expanded="true" signature="489:527" placeholder="SELECT id FR... authoriz" />
-            <marker date="1466500887914" expanded="true" signature="578:635" placeholder="INSERT into authoriz... " />
-            <marker date="1466500887914" expanded="true" signature="584:635" placeholder="insert into authoriz... " />
-            <marker date="1466500887914" expanded="true" signature="688:774" placeholder="UPDATE autho... " />
-            <marker date="1466500887914" expanded="true" signature="824:924" placeholder="SELECT id, n... authoriz" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1903,7 +1728,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1911,9 +1735,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="41" column="1" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1921,7 +1742,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="426">
           <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="53" selection-end-column="99" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="ResourceBundle">
@@ -1932,7 +1752,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="423">
           <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="53" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="ResourceBundle">
@@ -1943,7 +1762,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="372">
           <caret line="52" column="27" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="ResourceBundle">
@@ -1978,7 +1796,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1994,7 +1811,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="24" column="75" selection-start-line="24" selection-start-column="75" selection-end-line="24" selection-end-column="75" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2002,7 +1818,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="101">
           <caret line="19" column="46" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2010,7 +1825,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="53">
           <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2018,7 +1832,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="10" column="18" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2026,7 +1839,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
           <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="23" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2034,7 +1846,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="799">
           <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="54" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2042,15 +1853,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="76" column="22" selection-start-line="76" selection-start-column="4" selection-end-line="76" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/Student_group_page.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="100" column="70" selection-start-line="100" selection-start-column="70" selection-end-line="100" selection-end-column="70" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2058,18 +1860,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="223">
           <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/tld/dayTimeCourse.xsl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/tld/dayTimeCourse.xsl" />
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="366">
@@ -2078,14 +1872,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/tld/web-jsptaglibrary_2_1.xsd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-336">
-          <caret line="91" column="0" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/tld/web-jsptaglibrary_2_1.xsd" />
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/tld/dayTime.tld">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -2098,14 +1885,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="38" column="48" selection-start-line="38" selection-start-column="48" selection-end-line="38" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#157#184#0" expanded="true" />
-            <element signature="e#681#682#0" expanded="true" />
-            <element signature="e#717#718#0" expanded="true" />
-            <element signature="e#763#764#0" expanded="true" />
-            <element signature="e#801#802#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2113,7 +1892,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
           <caret line="41" column="24" selection-start-line="37" selection-start-column="4" selection-end-line="41" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2127,7 +1905,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/Courses.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
+        <state relative-caret-position="629">
           <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="104" />
           <folding />
         </state>
@@ -2135,24 +1913,196 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
+        <state relative-caret-position="1734">
           <caret line="102" column="30" selection-start-line="102" selection-start-column="30" selection-end-line="102" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/Teacher_page.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="57" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/View_course_page.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
+        <state relative-caret-position="1309">
           <caret line="77" column="14" selection-start-line="77" selection-start-column="14" selection-end-line="77" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/epam/finaltask/facultative/command/impl/AllCoursesForStudentCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/epam/finaltask/facultative/filter/EncodingFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/epam/finaltask/facultative/command/impl/AllCoursesCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/Student_group_page.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1700">
+          <caret line="100" column="70" selection-start-line="100" selection-start-column="70" selection-end-line="100" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/Profile_user.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/epam/finaltask/facultative/dao/GroupStudentDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/epam/finaltask/facultative/dao/impl/GroupStudentDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1467183128867" expanded="true" signature="556:717" placeholder="SELECT DISTI... facultative" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/epam/finaltask/facultative/dao/OperationWithCourseDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/epam/finaltask/facultative/service/GroupStudentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/epam/finaltask/facultative/command/impl/ApplyCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="28" column="83" selection-start-line="28" selection-start-column="83" selection-end-line="28" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/epam/finaltask/facultative/dao/impl/SubjectsForUserDOAImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-565">
+          <caret line="213" column="26" selection-start-line="213" selection-start-column="26" selection-end-line="213" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1467184309664" expanded="true" signature="662:830" placeholder="SELECT DISTI... teacher_schedule" />
+            <marker date="1467184309664" expanded="true" signature="893:1200" placeholder="SELECT DISTI... teacher_schedule" />
+            <marker date="1467184309664" expanded="true" signature="1269:1564" placeholder="SELECT DISTI... teacher_schedule" />
+            <marker date="1467184309664" expanded="true" signature="1269:1566" placeholder="SELECT DISTI... teacher_schedule" />
+            <marker date="1467184309664" expanded="true" signature="1488:1541" placeholder="Select id_su... facultative" />
+            <marker date="1467184309664" expanded="true" signature="1488:1543" placeholder="Select id_su... facultative" />
+            <marker date="1467184309664" expanded="true" signature="1621:1820" placeholder="SELECT DISTI... teacher_schedule" />
+            <marker date="1467184309664" expanded="true" signature="1887:2115" placeholder="SELECT id_su... teacher_schedule" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/epam/finaltask/facultative/dao/impl/UpdateContextTableStudentDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-242">
+          <caret line="50" column="45" selection-start-line="50" selection-start-column="45" selection-end-line="50" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1467184309732" expanded="true" signature="566:634" placeholder="update facul... " />
+            <marker date="1467184309732" expanded="true" signature="689:760" placeholder="update facul... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/epam/finaltask/facultative/dao/impl/UserDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-327">
+          <caret line="115" column="19" selection-start-line="115" selection-start-column="19" selection-end-line="115" selection-end-column="19" />
+          <folding>
+            <marker date="1467184309583" expanded="true" signature="489:527" placeholder="SELECT id FR... authoriz" />
+            <marker date="1467184309583" expanded="true" signature="578:635" placeholder="INSERT into authoriz... " />
+            <marker date="1467184309583" expanded="true" signature="584:635" placeholder="insert into authoriz... " />
+            <marker date="1467184309583" expanded="true" signature="688:774" placeholder="UPDATE autho... " />
+            <marker date="1467184309583" expanded="true" signature="824:924" placeholder="SELECT id, n... authoriz" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/epam/finaltask/facultative/entity/CourseDescription.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/Teacher_page.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="155" column="0" selection-start-line="155" selection-start-column="0" selection-end-line="155" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/epam/finaltask/facultative/command/impl/AddCourseCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="39" column="37" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/epam/finaltask/facultative/dao/impl/OperationWithCourseDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="106" column="11" selection-start-line="106" selection-start-column="11" selection-end-line="106" selection-end-column="67" />
+          <folding>
+            <marker date="1467183559239" expanded="true" signature="645:801" placeholder="UPDATE teach... " />
+            <marker date="1467183559239" expanded="true" signature="702:777" placeholder="select numbe... teacher_schedule" />
+            <marker date="1467183559239" expanded="true" signature="858:919" placeholder="INSERT INTO facultative... " />
+            <marker date="1467183559239" expanded="true" signature="984:1138" placeholder="update teach... " />
+            <marker date="1467183559239" expanded="true" signature="1040:1115" placeholder="Select numbe... teacher_schedule" />
+            <marker date="1467183559239" expanded="true" signature="1196:1257" placeholder="DELETE FROM " />
+            <marker date="1467183559239" expanded="true" signature="1310:1510" placeholder="INSERT INTO teacher_schedule... " />
+            <marker date="1467183559239" expanded="true" signature="1575:1576" placeholder="DELETE FROM " />
+            <marker date="1467183559239" expanded="true" signature="1575:1623" placeholder="Delete from " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/epam/finaltask/facultative/service/OperationWithCourseService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
           <folding />
         </state>
       </provider>

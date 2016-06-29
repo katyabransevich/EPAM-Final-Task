@@ -15,7 +15,14 @@ public class UpdateContextTableStudentDAOImpl implements UpdateContextTableStude
     private final static String SQL_UPDATE_COMMENT="update facultative set comment= ? where id_student= ? and id_subject= ?";
 
 
-
+    /**
+     * teacher can update student mark
+     *
+     * @param mark
+     * @param idStudent
+     * @param idSubject
+     * @throws DAOException
+     */
     public void updateMark (int mark,int idStudent, int idSubject) throws DAOException {
         ConnectionPool connectionPool = ConnectionPool.getInstance();
         Connection connection = null;
@@ -39,6 +46,15 @@ public class UpdateContextTableStudentDAOImpl implements UpdateContextTableStude
         }
 
     }
+
+    /**
+     * teacher can update comment for student
+     *
+     * @param comment
+     * @param idStudent
+     * @param idSubject
+     * @throws DAOException
+     */
 
     public void updateComment (String comment ,int idStudent, int idSubject) throws DAOException {
         ConnectionPool connectionPool = ConnectionPool.getInstance();

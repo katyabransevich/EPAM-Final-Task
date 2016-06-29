@@ -11,6 +11,13 @@
 	text-transform: uppercase;
 	margin-bottom: 30px;
 }
+.description {
+	font-family: Arial;
+	box-sizing: border-box;
+	padding: 5px 10px;
+	width: 100%;
+	margin-bottom: 10px;
+}
 
 .field-inf {
 	position: relative;
@@ -34,24 +41,17 @@
 	margin-left: 10px;
 }
 .choose-group {
-	height: 50px;
-	margin-top: 20px;
+	height: 30px;
 	margin-bottom: 10px;
 }
-.choose-group span{
-	font-size: 22px;
-	color: #464547;
-	width: 100%;
-	display: inline-block;
-	margin-bottom: 10px;
-}
+
 
 .group {
 	opacity: 0;
 }
 
 .name-group {
-	font-size: 20px;
+	font-size: 16px;
 	color: #464547;
 	cursor: pointer;
 }

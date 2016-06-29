@@ -7,16 +7,21 @@ import by.epam.finaltask.facultative.entity.CourseDescription;
 import by.epam.finaltask.facultative.entity.User;
 import by.epam.finaltask.facultative.service.exception.ServiceException;
 
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 
 public class OperationWithCourseService {
 
 
-    public final static boolean applyCourseForStudent(int idStudent, int idSubject) throws ServiceException {
+    public final static void applyCourseForStudent(int idStudent, int idSubject) throws ServiceException {
 
         OperationWithCourseDAO operationWithCourse = DAOFactory.getOperationWithCourseDAO();
         try {
 
-            return operationWithCourse.applyCourseForStudent(idStudent,idSubject);
+            operationWithCourse.applyCourseForStudent(idStudent,idSubject);
 
         } catch (DAOException e) {
             throw new ServiceException("Error access database",e);
@@ -37,6 +42,15 @@ public class OperationWithCourseService {
     }
 
     public final static void addCourseForTeacher(String courseName, User teacher, String dayTime, int numberOfStudent, String startCourse, String endCourse, String description) throws ServiceException {
+
+        DateFormat format = new SimpleDateFormat("yyyy-MM-dd");
+        try {
+            Date start = format.parse(startCourse);
+            Date end = format.parse(endCourse);
+        } catch (ParseException e) {
+            throw new ServiceException("Error access date",e);
+        }
+
         CourseDescription courseDescription=new CourseDescription();
         courseDescription.setCourseName(courseName);
         courseDescription.setTeacher(teacher);

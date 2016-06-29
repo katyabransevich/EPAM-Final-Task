@@ -154,10 +154,6 @@
         </div>
         <textarea class=" input-field decription" placeholder="${enter_description}" name="description" required></textarea>
 
-        <div >
-            <p>картинка</p>
-        <input type="file" name="file" accept="image/jpeg">
-        </div>
         <button class="signin-button submit create">${create_course}</button>
     </form>
 

@@ -1,8 +1,6 @@
 package by.epam.finaltask.facultative.entity;
 
-/**
- * Created by Admin on 27.05.2016.
- */
+
 public class CourseDescription {
     private  int id;
     private String courseName;

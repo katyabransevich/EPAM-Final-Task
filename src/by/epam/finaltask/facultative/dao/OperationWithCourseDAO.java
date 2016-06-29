@@ -6,7 +6,7 @@ import by.epam.finaltask.facultative.entity.User;
 
 
 public interface OperationWithCourseDAO {
-    public  boolean applyCourseForStudent(int id_student, int id_subject) throws DAOException;
+    public  void applyCourseForStudent(int id_student, int id_subject) throws DAOException;
     public void deleteCourseForStudent(int id_student, int id_subject) throws DAOException;
     public void addCourseForTeacher (CourseDescription course) throws DAOException ;
     public void deleteCourseForTeacher (int idCourse) throws DAOException ;

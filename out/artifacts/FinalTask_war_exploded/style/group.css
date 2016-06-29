@@ -35,13 +35,30 @@ td, th {
 
 
 .feedback {
-	max-width: 500px;
-	min-width: 500px;
+	max-width: 350px;
+	min-width: 350px;
 	word-wrap: break-word;
 }
 
+
+
 .button-group {
-	width: 300px;
+	display: inline-block;
+	position: relative;
+}
+.input-field-mark {
+	height: 50px;
+	width: 70%;
+	margin-bottom: 10px;
+	margin-left:10px;
+	box-sizing: border-box;
+	padding-left: 10px;
+}
+
+.button-ok {
+	top:10px;
+	left: 255px;
+	position: absolute;
 }
 
 .add-feedback {
@@ -53,12 +70,10 @@ td, th {
 	line-height: 30px;
 	width: 85%;
 }
-.add-feedback span {
-	/*margin: 0;*/
-}
 .right {
 	float: right;
 	display: inline-block;
+	margin-bottom: 0;
 }
 
 
@@ -83,8 +98,10 @@ td, th {
 	display: inline-block;
 }
 
-.comment-decription {
-	height: 100px;
+.comment-description {
+	height: 80px;
+	width: 250px;
+	display: inline-block;
 }
 
 .title-comment {
@@ -94,10 +111,7 @@ td, th {
 	margin-bottom: 20px;
 	color: #39c2d7;
 }
-.create-comment-submit {
-	width: 100%;
-	margin-left: 0;
-}
+
 
 .total-mark, .total-recall {
 	display: none;
